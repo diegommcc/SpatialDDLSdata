@@ -1,7 +1,0 @@
-
-MouseDLN.SCE <- readRDS("/home/dmananesc/Documents/Rpackages/data/Mouse-dLN/mouse-ln-sce.rds")
-MouseDLN.ST <- readRDS("/home/dmananesc/Documents/Rpackages/data/Mouse-dLN/mouse-ln-ste.rds")
-
-
-usethis::use_data(MouseDLN.SCE, overwrite = TRUE)
-usethis::use_data(MouseDLN.ST, overwrite = TRUE)
